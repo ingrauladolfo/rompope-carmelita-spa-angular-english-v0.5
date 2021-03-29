@@ -36,7 +36,7 @@ const routes: Routes = [
   {path:'our-certifications/gallery/haccp', component:HaccpCertificationComponent},
   {path:'our-certifications/gallery/nom-scfi', component:NomScfiCertificationComponent},
   {path:'our-departments', component:OurDepartmentsComponent},
-  {path:'artesanal-proccess-and-recipes', component:CraftProccessAndRecipesComponent},
+  {path:'recipebook-and-artesanal-process', component:CraftProccessAndRecipesComponent},
   {path:'carmelitas-recipes', component: CarmelitasRecipesComponent},
   {path:'carmelitas-recipes/:id', component: CarmelitasCookinbookComponent},
   {path:'carmelitas-recipes/gallery/:id', component: CarmelitasRecipesGalleryComponent},
