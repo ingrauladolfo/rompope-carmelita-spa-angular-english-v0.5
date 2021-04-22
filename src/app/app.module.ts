@@ -49,7 +49,7 @@ import { CarmelitasCookinbookComponent } from './components/carmelitas-cookinboo
 import { CarmelitasRecipesGalleryComponent } from './components/carmelitas-recipes-gallery/carmelitas-recipes-gallery.component';
 import { SidebarSocialMediaComponent } from './components/sidebar-social-media/sidebar-social-media.component';
 import { CarmelitasMomentsGalleryComponent } from './components/carmelitas-moments-gallery/carmelitas-moments-gallery.component';
-
+import { Mugan86GoogleAnalyticsModule } from 'mugan86-ng-google-analytics';
 
 @NgModule({
   declarations: [
@@ -98,6 +98,12 @@ import { CarmelitasMomentsGalleryComponent } from './components/carmelitas-momen
     ButtonsModule,
     CarouselModule,
     WavesModule,
+    Mugan86GoogleAnalyticsModule.forRoot(
+      {
+        analyticsId: 'G-J5M0NT56B9G',
+        showLog: true
+      }
+    )
   ],
   providers: [CarmelitasRecipesService, MissionvisionphilosophyService,ValuesService],
   bootstrap: [AppComponent],
